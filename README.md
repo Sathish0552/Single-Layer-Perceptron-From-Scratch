@@ -48,27 +48,26 @@ To run this project, you will need:
    ```bash
    git clone https://github.com/Sathish0552/Single-Layer-Perceptron.git
    cd Single-Layer-Perceptron
-2.Install the dependencies:
+2. Install the dependencies:
+   ```bash
    pip install -r requirements.txt
-3.Ensure you have the dataset (wine.csv) placed in the project root directory.
+3. Ensure you have the dataset (wine.csv) placed in the project root directory.
 
-Usage
+## Usage
 To run the perceptron model on the wine dataset, execute:
-python SLP.py
+    ```bash
+    python SLP.py
 The script will:
-
-Load the dataset from wine.csv
-Shuffle the dataset
-Train the perceptron model on a training set
-Test the model on the test set and output the accuracy
-Results
+- Load the dataset from wine.csv
+- Shuffle the dataset
+- Train the perceptron model on a training set
+- Test the model on the test set and output the accuracy
+## Results
 The results of the perceptron model will be displayed in the terminal, showing the classification accuracy. Covariance and correlation matrices of the dataset will also be generated as part of the exploratory data analysis.
 
-Contributing
+## Contributing
 If you want to contribute to this project, feel free to:
 
 Fork the repository
 Submit a pull request
 We welcome any improvements and bug fixes!
-
-You can copy this entire block and paste it into your `README.md` file. Let me know if you need any more help!
